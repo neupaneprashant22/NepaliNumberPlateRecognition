@@ -1,0 +1,27 @@
+.landing-page-text {
+    position: absolute;
+    bottom: 30%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    animation: fade-in 2s ease-in-out;
+  }
+  
+  .landing-page-button {
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    animation: fade-in 2s ease-in-out;
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+      transform: translateY(50%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  
